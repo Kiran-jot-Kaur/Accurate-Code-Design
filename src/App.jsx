@@ -1,38 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import Hero from "./components/hero/Hero";
+import Navbar from "./components/navbar/Navbar";
+import Portfolio from "./components/portfolio/Portfolio";
+import Services from "./components/services/Services";
+import TechStack from "./components/techstack/TechStack";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className='bg-red-900'>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1 class="text-3xl font-bold underline italic text-red">
-    Hello world!
-  </h1>
-      <h1 class='justify-end '>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <TechStack />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
