@@ -1,24 +1,27 @@
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-import Hero from "./components/hero/Hero";
-import Navbar from "./components/navbar/Navbar";
-import Portfolio from "./components/portfolio/Portfolio";
-import Services from "./components/services/Services";
-import TechStack from "./components/techstack/TechStack";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainLayout from "./layout/MainLayout";
+
+import Home from "./pages/Home";
+import Courses from "./pages/Courses";
+import Internship from "./pages/Internship";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <TechStack />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <MainLayout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/internship" element={<Internship />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </MainLayout>
+    </BrowserRouter>
   );
 }
 

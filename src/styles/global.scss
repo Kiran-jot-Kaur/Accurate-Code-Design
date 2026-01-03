@@ -1,0 +1,23 @@
+.nav-link {
+  color: #9ca3af;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-link.active {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: #9ca3af;
+  text-decoration-thickness: 2px;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    text-decoration-color: #fff;
+  }
+}
