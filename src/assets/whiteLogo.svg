@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="375" height="375" viewBox="0 0 375 375">
+<defs>
+<clipPath id="clip_0">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H1562.5V1562.5H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_1">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H1562.5V1562.5H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H1562.5V1562.5H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(.24,0,0,.24,68.4,23.039999)" d="M0 0H576V1105H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(.24,0,0,.24,141.12,20.64)" d="M0 0H572V1099H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(.24,0,0,.24,59.28,76.32)" d="M0 0H1081V1137H0Z" clip-rule="evenodd"/>
+</clipPath>
+</defs>
+<g>
+<g clip-path="url(#clip_0)">
+<path transform="matrix(.75,0,0,.75,0,0)" d="M0 0H500V500H0Z" fill="#ffffff"/>
+</g>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(.75,0,0,.75,0,0)" d="M0 0H500V500H0Z"/>
+</g>
+<g clip-path="url(#clip_2)">
+<g>
+<g clip-path="url(#clip_3)">
+<text fill="#ffffff" xml:space="preserve" transform="matrix(3.6300798 0 0 3.6300798 68.524669 23.220112)" font-size="53.33" font-family="CanvaSans" font-weight="bold"><tspan y="57" x="0">A</tspan></text>
+</g>
+</g>
+<g>
+<g clip-path="url(#clip_4)">
+<text fill="#ffffff" xml:space="preserve" transform="matrix(3.6090139 -.000000000000000447565 .000000000000000447565 3.6090139 141.14995 20.7922)" font-size="53.33" font-family="CanvaSans" font-weight="bold"><tspan y="57" x="0">C</tspan></text>
+</g>
+</g>
+<g>
+<g clip-path="url(#clip_5)">
+<text fill="#ffffff" xml:space="preserve" transform="matrix(2.543931 2.1221798 -2.1221798 2.543931 214.2454 76.43982)" font-size="53.33" font-family="CanvaSans" font-weight="bold"><tspan y="57" x="0">D</tspan></text>
+</g>
+</g>
+</g>
+</g>
+</svg>

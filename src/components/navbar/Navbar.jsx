@@ -1,6 +1,6 @@
 import { Code, Menu } from 'lucide-react';
 import React, { useEffect, useState } from 'react'
-
+import blackLogo from '../../assets/blackLogo.svg';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -18,10 +18,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-[#0F4C75] to-[#3282B8] rounded-lg flex items-center justify-center">
-              <Code className="w-6 h-6 text-white" />
-            </div>
-            <span className="text-xl font-bold text-[#1A1A2E]">Accurate <span className="text-[#3282B8]">C&D</span></span>
+            <img src={blackLogo} alt="Logo" className="w-8 h-8" />
+            <span className="text-xl font-bold text-[#3282B8]">ACD</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -32,7 +30,7 @@ const Navbar = () => {
             <a href="#contact" className="px-6 py-2 bg-gradient-to-r from-[#0F4C75] to-[#3282B8] text-white rounded-full hover:shadow-lg transition-all">Contact Us</a>
           </div>
 
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-[#1A1A2E]">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-[#3282B8]">
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>

@@ -1,5 +1,6 @@
 import { Code, Github, Linkedin, Mail, Twitter } from 'lucide-react';
 import React from 'react'
+import blackLogo from '../../assets/blackLogo.svg';
 
 const Footer = () => {
   return (
@@ -8,9 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#0F4C75] to-[#3282B8] rounded-lg flex items-center justify-center">
-                <Code className="w-6 h-6 text-white" />
-              </div>
+              <img src={blackLogo} alt="Logo" className="w-8 h-8" />
               <span className="text-xl font-bold">Accurate C&D</span>
             </div>
             <p className="text-gray-400">Crafting digital excellence through expert coding and design solutions.</p>

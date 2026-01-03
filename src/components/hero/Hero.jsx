@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#0F4C75] rounded-full blur-3xl"></div>
       </div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pb-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white space-y-6">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
