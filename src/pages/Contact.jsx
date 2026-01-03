@@ -64,8 +64,8 @@ const Contact = () => {
     <PageWrapper>
       <div className="mx-auto max-w-7xl px-6 py-20">
         <div className="mb-16 text-center">
-          <h1 className="text-4xl font-bold">Contact Us</h1>
-          <p className="mt-4 text-gray-600">
+          <h1 className="text-4xl font-bold text-white">Contact Us</h1>
+          <p className="mt-4 text-gray-400">
             Get in touch with ACD Tech for course details, internships, or
             general queries.
           </p>
@@ -73,33 +73,33 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
           <div>
-            <h2 className="mb-4 text-2xl font-semibold">Contact Information</h2>
-            <p className="mb-6 text-gray-600">
+            <h2 className="mb-4 text-2xl font-semibold text-white">Contact Information</h2>
+            <p className="mb-6 text-gray-400">
               We are happy to help you with any questions related to our
               programs and training approach.
             </p>
 
-            <ul className="space-y-4 text-gray-600 border-l-4 border-white pl-4">
+            <ul className="space-y-4 text-gray-400 border-l-4 border-white pl-4">
               <li>
-                📍 <strong className="text-gray-500">Location:</strong> Mohali,
+                📍 <strong className="text-gray-400">Location:</strong> Mohali,
                 Punjab, India
               </li>
               <li>
-                📧 <strong className="text-gray-500">Email:</strong>{" "}
+                📧 <strong className="text-gray-400">Email:</strong>{" "}
                 info@acdtech.in
               </li>
               <li>
-                📞 <strong className="text-gray-500">Phone:</strong> +91
+                📞 <strong className="text-gray-400">Phone:</strong> +91
                 XXXXXXXXXX
               </li>
             </ul>
           </div>
 
           <form onSubmit={handleSubmit} className="rounded-lg border p-8">
-            <h2 className="mb-6 text-2xl font-semibold">Send Us a Message</h2>
+            <h2 className="mb-6 text-2xl font-semibold text-white">Send Us a Message</h2>
 
             <div className="mb-4">
-              <label className="mb-1 block text-sm font-medium">
+              <label className="mb-1 block text-sm font-medium text-white">
                 Full Name
               </label>
               <input
@@ -115,7 +115,7 @@ const Contact = () => {
             </div>
 
             <div className="mb-4">
-              <label className="mb-1 block text-sm font-medium">
+              <label className="mb-1 block text-sm font-medium text-white">
                 Email Address
               </label>
               <input
@@ -131,7 +131,7 @@ const Contact = () => {
             </div>
 
             <div className="mb-4">
-              <label className="mb-1 block text-sm font-medium">
+              <label className="mb-1 block text-sm font-medium text-white">
                 Phone Number
               </label>
               <input
@@ -147,7 +147,7 @@ const Contact = () => {
             </div>
 
             <div className="mb-6">
-              <label className="mb-1 block text-sm font-medium">Message</label>
+              <label className="mb-1 block text-sm font-medium text-white">Message</label>
               <textarea
                 name="message"
                 rows="4"
@@ -162,7 +162,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full inline-flex items-center justify-center rounded-md bg-gray-600 px-6 py-2 text-sm font-medium text-white hover:bg-gray-800 transition-colors duration-200"
+              className="w-full inline-flex items-center justify-center rounded-md bg-gray-500 px-6 py-2 text-sm font-medium text-white hover:bg-gray-800 transition-colors duration-200"
             >
               Submit Message
             </button>

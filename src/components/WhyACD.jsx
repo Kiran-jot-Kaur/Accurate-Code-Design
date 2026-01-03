@@ -4,18 +4,18 @@ const WhyACD = () => {
       <div className="mx-auto max-w-7xl px-6">
         
         <div className="mb-14 text-center">
-          <p className="text-sm uppercase tracking-wider text-gray-500">
+          <p className="text-sm uppercase tracking-wider text-gray-400">
             Why Choose Us
           </p>
-          <h2 className="mt-2 text-3xl font-bold">
+          <h2 className="mt-2 text-3xl font-bold text-white">
             Why ACD Tech
           </h2>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           
-          <div className="rounded-lg bg-gray-700 p-8 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold">
+          <div className="rounded-lg bg-gray-500 p-8 shadow-sm">
+            <h3 className="mb-3 text-lg font-semibold text-white">
               Product-Based Learning
             </h3>
             <p className="text-gray-900">
@@ -24,8 +24,8 @@ const WhyACD = () => {
             </p>
           </div>
 
-          <div className="rounded-lg bg-gray-700 p-8 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold">
+          <div className="rounded-lg bg-gray-500 p-8 shadow-sm">
+            <h3 className="mb-3 text-lg font-semibold text-white">
               AI-Integrated Training
             </h3>
             <p className="text-gray-900">
@@ -34,8 +34,8 @@ const WhyACD = () => {
             </p>
           </div>
 
-          <div className="rounded-lg bg-gray-700 p-8 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold">
+          <div className="rounded-lg bg-gray-500 p-8 shadow-sm">
+            <h3 className="mb-3 text-lg font-semibold text-white">
               Internship-Oriented Approach
             </h3>
             <p className="text-gray-900">

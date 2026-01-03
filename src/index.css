@@ -30,28 +30,28 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
+  background-color: #4b5563;
+  transition: background-color 0.2s ease;
+  color: white;
+  padding: 8px 16px;
+}
+button:hover {
+  background-color: #1f2937;
+  color: #fff;
 }
 button:focus,
 button:focus-visible {
   outline: none;
-  border: none;
   box-shadow: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #1f2937;
-    background-color: #000;
-  }
-  a:hover {
-    color: #fff;
-  }
-  button {
-    background-color: #4b5563;
+    color: #ffffff;
+    background-color: #000000;
   }
 }

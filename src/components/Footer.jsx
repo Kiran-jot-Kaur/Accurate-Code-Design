@@ -9,23 +9,23 @@ const Footer = () => {
             <div className="flex items-center text-left gap-0.5">
               <img src={whiteLogo} alt="ACD Logo" className="h-16 w-auto" />
               <div>
-                <h2 className="text-xl font-bold tracking-wide">ACD</h2>
-                <p className="mt-1 text-xs tracking-widest text-gray-500">
+                <h2 className="text-xl font-bold tracking-wide text-white">ACD</h2>
+                <p className="mt-1 text-xs tracking-widest text-gray-400">
                   ACCURATE CODE & DESIGN
                 </p>
               </div>
             </div>
-            <p className="mt-2 text-sm text-gray-600">
+            <p className="mt-2 text-sm text-gray-400">
               AI-powered frontend and UI engineering training focused on real
               product experience.
             </p>
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide">
+            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white">
               Quick Links
             </h4>
-            <ul className="space-y-2 text-sm text-gray-600">
+            <ul className="space-y-2 text-sm text-gray-400">
               <li>
                 <NavLink to="/" className="hover:text-white">
                   Home
@@ -60,10 +60,10 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide">
+            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white">
               Programs
             </h4>
-            <ul className="space-y-2 text-sm text-gray-600">
+            <ul className="space-y-2 text-sm text-gray-400">
               <li>Frontend & UI Foundations</li>
               <li>AI-Powered Frontend Engineer</li>
               <li>AI Full Frontend + Backend</li>
@@ -72,10 +72,10 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide">
+            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white">
               Contact
             </h4>
-            <ul className="space-y-2 text-sm text-gray-600">
+            <ul className="space-y-2 text-sm text-gray-400">
               <li>📍 Mohali, Punjab, India</li>
               <li>📧 info@acdtech.in</li>
               <li>📞 +91 XXXXXXXXXX</li>
@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-6 border-t pt-4 text-center text-sm text-gray-500">
+        <div className="mt-6 border-t pt-4 text-center text-sm text-gray-400">
           © {new Date().getFullYear()} ACD Tech. All rights reserved.
         </div>
       </div>

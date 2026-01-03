@@ -5,15 +5,15 @@ const Projects = () => {
     <PageWrapper>
       <div className="mx-auto max-w-7xl px-6 py-20">
         <div className="mb-16 text-center">
-          <h1 className="text-4xl font-bold">Our Projects</h1>
-          <p className="mt-4 text-gray-600">
+          <h1 className="text-4xl font-bold text-white">Our Projects</h1>
+          <p className="mt-4 text-gray-400">
             All projects at ACD Tech are designed around real-world product use
             cases, not random college assignments.
           </p>
         </div>
 
-        <div className="mb-20 rounded-lg bg-gray-700 p-8">
-          <h2 className="mb-4 text-2xl font-semibold">
+        <div className="mb-20 rounded-lg bg-gray-500 p-8">
+          <h2 className="mb-4 text-2xl font-semibold text-white">
             Our Core Project Domain
           </h2>
           <p className="text-gray-900">
@@ -27,56 +27,56 @@ const Projects = () => {
         </div>
 
         <div className="mb-20">
-          <h2 className="mb-10 text-2xl font-semibold">
+          <h2 className="mb-10 text-2xl font-semibold text-white">
             Student Project Portfolio
           </h2>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-            <div className="rounded-lg border p-6">
-              <h3 className="mb-3 text-lg font-semibold">
+            <div className="rounded-lg border border-white p-6">
+              <h3 className="mb-3 text-lg font-semibold text-white">
                 Business Analytics Dashboard
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-400">
                 A responsive admin dashboard to manage users, visualize
                 analytics, and generate insights using charts and reports.
               </p>
             </div>
 
-            <div className="rounded-lg border p-6">
-              <h3 className="mb-3 text-lg font-semibold">
+            <div className="rounded-lg border border-white p-6">
+              <h3 className="mb-3 text-lg font-semibold text-white">
                 Role-Based Management System
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-400">
                 A system with different user roles such as admin, staff, and
                 users, each having controlled access to features.
               </p>
             </div>
 
-            <div className="rounded-lg border p-6">
-              <h3 className="mb-3 text-lg font-semibold">
+            <div className="rounded-lg border border-white p-6">
+              <h3 className="mb-3 text-lg font-semibold text-white">
                 AI-Powered Chat Interface
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-400">
                 A modern chat UI integrated with AI logic to simulate
                 intelligent conversations and assistance.
               </p>
             </div>
 
-            <div className="rounded-lg border p-6">
-              <h3 className="mb-3 text-lg font-semibold">
+            <div className="rounded-lg border border-white p-6">
+              <h3 className="mb-3 text-lg font-semibold text-white">
                 Admin Panel for E-Commerce
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-400">
                 An internal system to manage products, orders, users, and
                 analytics for an e-commerce platform.
               </p>
             </div>
 
-            <div className="rounded-lg border p-6">
-              <h3 className="mb-3 text-lg font-semibold">
+            <div className="rounded-lg border border-white p-6">
+              <h3 className="mb-3 text-lg font-semibold text-white">
                 Task & Team Management Tool
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-400">
                 A project management tool to assign tasks, track progress, and
                 collaborate within teams.
               </p>
@@ -84,8 +84,8 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="rounded-lg bg-gray-700 p-8">
-          <h2 className="mb-6 text-2xl font-semibold">
+        <div className="rounded-lg bg-gray-500 p-8">
+          <h2 className="mb-6 text-2xl font-semibold text-white">
             Project Synopsis Format (For Students)
           </h2>
 

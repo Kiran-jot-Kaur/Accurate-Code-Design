@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <NavLink
             to="/contact"
-            className="inline-flex items-center justify-center rounded-md bg-gray-600 px-6 py-3 text-sm font-medium text-white hover:bg-gray-800 transition-colors duration-200"
+            className="inline-flex items-center justify-center rounded-md bg-gray-500 px-2 py-3 md:px-4 text-sm font-medium text-white hover:bg-gray-800 transition-colors duration-200"
           >
             Enroll Now
           </NavLink>
@@ -65,7 +65,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden border-t bg-gray-900/70 backdrop-blur-sm">
+        <div className="md:hidden border-t border-white bg-black/80 backdrop-blur-sm">
           <nav className="flex flex-col px-6 py-4 gap-4">
             <NavLink
               to="/"
