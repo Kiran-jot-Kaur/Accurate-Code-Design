@@ -1,5 +1,9 @@
+import PageWrapper from "../components/PageWrapper";
+
 const About = () => {
   return (
+    
+    <PageWrapper>
     <div className="mx-auto max-w-7xl px-6 py-20">
 
       {/* Page Header */}
@@ -63,6 +67,7 @@ const About = () => {
       </div>
 
     </div>
+    </PageWrapper>
   );
 };
 

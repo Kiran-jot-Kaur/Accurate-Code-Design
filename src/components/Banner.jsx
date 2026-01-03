@@ -3,7 +3,7 @@ import whiteLogo from "../assets/whiteLogo.svg";
 const Banner = () => {
   return (
     <section className="relative overflow-hidden">
-      <div className="mx-auto max-w-7xl px-6 py-18">
+      <div className="mx-auto max-w-7xl px-6 pt-28 pb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
           {/* Left: Logo / Visual */}
           <div className="flex items-center text-left gap-1 space-x-1">
