@@ -16,41 +16,41 @@ const InternshipModel = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-          <div className="rounded-lg bg-gray-900 p-6 shadow-sm">
+          <div className="rounded-lg bg-gray-700 p-6 shadow-sm">
             <span className="text-sm font-semibold text-gray-400">Step 01</span>
             <h3 className="mt-3 mb-2 text-lg font-semibold">Skill Training</h3>
-            <p className="text-gray-600">
+            <p className="text-gray-900">
               Students build strong foundations in frontend, UI, backend basics,
               and AI-assisted development.
             </p>
           </div>
 
-          <div className="rounded-lg bg-gray-900  p-6 shadow-sm">
+          <div className="rounded-lg bg-gray-700  p-6 shadow-sm">
             <span className="text-sm font-semibold text-gray-400">Step 02</span>
             <h3 className="mt-3 mb-2 text-lg font-semibold">Product Work</h3>
-            <p className="text-gray-600">
+            <p className="text-gray-900">
               Learners work on internal company products following real-world
               development practices.
             </p>
           </div>
 
-          <div className="rounded-lg bg-gray-900  p-6 shadow-sm">
+          <div className="rounded-lg bg-gray-700  p-6 shadow-sm">
             <span className="text-sm font-semibold text-gray-400">Step 03</span>
             <h3 className="mt-3 mb-2 text-lg font-semibold">
               Team Collaboration
             </h3>
-            <p className="text-gray-600">
+            <p className="text-gray-900">
               Students use Git, collaborate in teams, receive reviews, and
               follow professional workflows.
             </p>
           </div>
 
-          <div className="rounded-lg bg-gray-900  p-6 shadow-sm">
+          <div className="rounded-lg bg-gray-700  p-6 shadow-sm">
             <span className="text-sm font-semibold text-gray-400">Step 04</span>
             <h3 className="mt-3 mb-2 text-lg font-semibold">
               Internship Experience
             </h3>
-            <p className="text-gray-600">
+            <p className="text-gray-900">
               Top-performing students gain internship experience with real
               responsibilities and project ownership.
             </p>

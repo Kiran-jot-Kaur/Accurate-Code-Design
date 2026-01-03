@@ -65,7 +65,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden border-t bg-slate-300">
+        <div className="md:hidden border-t bg-gray-900/70 backdrop-blur-sm">
           <nav className="flex flex-col px-6 py-4 gap-4">
             <NavLink
               to="/"
@@ -113,7 +113,7 @@ const Navbar = () => {
             <NavLink
               to="/contact"
               onClick={() => setIsOpen(false)}
-              className="mt-4 inline-block rounded-md bg-black px-5 py-2 text-center text-sm font-medium text-white"
+              className="mt-4 inline-block rounded-md bg-gray-700 px-5 py-2 text-center text-sm font-medium text-white hover:bg-gray-900"
             >
               Enroll Now
             </NavLink>

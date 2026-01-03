@@ -96,15 +96,15 @@ const Internship = () => {
           </div>
         </div>
 
-        <div className="mb-20 rounded-lg bg-gray-900 p-8">
+        <div className="mb-20 rounded-lg bg-gray-700 p-8">
           <h2 className="mb-4 text-2xl font-semibold">
             Eligibility & Selection
           </h2>
-          <p className="mb-4 text-gray-600">
+          <p className="mb-4 text-gray-900">
             Internship opportunities are offered to students who demonstrate
             commitment, learning progress, and discipline during training.
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-900">
             Selection is based on performance, not on certificates or fees.
           </p>
         </div>

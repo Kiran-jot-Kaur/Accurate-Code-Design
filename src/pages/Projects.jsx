@@ -12,11 +12,11 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="mb-20 rounded-lg bg-gray-900 p-8">
+        <div className="mb-20 rounded-lg bg-gray-700 p-8">
           <h2 className="mb-4 text-2xl font-semibold">
             Our Core Project Domain
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-900">
             At ACD Tech, we focus on building{" "}
             <strong>
               business dashboards, admin systems, and AI-assisted applications
@@ -84,12 +84,12 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="rounded-lg bg-gray-900 p-8">
+        <div className="rounded-lg bg-gray-700 p-8">
           <h2 className="mb-6 text-2xl font-semibold">
             Project Synopsis Format (For Students)
           </h2>
 
-          <ul className="list-disc pl-6 text-gray-600 space-y-2">
+          <ul className="list-disc pl-6 text-gray-900 space-y-2">
             <li>
               <strong>Project Title:</strong> Name of the project
             </li>
@@ -115,7 +115,7 @@ const Projects = () => {
             </li>
           </ul>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-gray-900">
             This format is provided to students for college submissions and
             academic evaluations.
           </p>

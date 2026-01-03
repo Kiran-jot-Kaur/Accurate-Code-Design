@@ -26,11 +26,11 @@ const About = () => {
         </p>
       </div>
 
-      <div className="mb-20 rounded-lg bg-gray-900 p-8">
+      <div className="mb-20 rounded-lg bg-gray-700 p-8">
         <h2 className="mb-4 text-2xl font-semibold">
           Our Vision
         </h2>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-900 leading-relaxed">
           Our vision is to create industry-ready engineers who understand
           not just how to write code, but how real software products are
           designed, built, and maintained in companies.
@@ -49,11 +49,11 @@ const About = () => {
         </ul>
       </div>
 
-      <div className="rounded-lg bg-gray-900 p-8">
+      <div className="rounded-lg bg-gray-700 p-8">
         <h2 className="mb-4 text-2xl font-semibold">
           Why ACD Tech Exists
         </h2>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-900 leading-relaxed">
           Many students complete courses but still feel unprepared for
           real jobs. ACD Tech was created to bridge this gap by focusing
           on practical skills, real projects, and industry-relevant
