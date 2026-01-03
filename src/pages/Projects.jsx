@@ -4,7 +4,6 @@ const Projects = () => {
   return (
     <PageWrapper>
       <div className="mx-auto max-w-7xl px-6 py-20">
-        {/* Page Header */}
         <div className="mb-16 text-center">
           <h1 className="text-4xl font-bold">Our Projects</h1>
           <p className="mt-4 text-gray-600">
@@ -13,7 +12,6 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Core Domain */}
         <div className="mb-20 rounded-lg bg-gray-900 p-8">
           <h2 className="mb-4 text-2xl font-semibold">
             Our Core Project Domain
@@ -28,7 +26,6 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Project List */}
         <div className="mb-20">
           <h2 className="mb-10 text-2xl font-semibold">
             Student Project Portfolio
@@ -87,7 +84,6 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Synopsis Format */}
         <div className="rounded-lg bg-gray-900 p-8">
           <h2 className="mb-6 text-2xl font-semibold">
             Project Synopsis Format (For Students)

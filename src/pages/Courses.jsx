@@ -4,7 +4,6 @@ const Courses = () => {
   return (
     <PageWrapper>
       <div className="mx-auto max-w-7xl px-6 py-20">
-        {/* Page Header */}
         <div className="mb-16 text-center">
           <h1 className="text-4xl font-bold">Our Courses</h1>
           <p className="mt-4 text-gray-600">
@@ -13,7 +12,6 @@ const Courses = () => {
           </p>
         </div>
 
-        {/* Course 1 */}
         <div className="mb-16 rounded-lg border p-8">
           <h2 className="text-2xl font-semibold">Frontend & UI Foundations</h2>
           <p className="mt-2 text-sm text-gray-500">
@@ -44,7 +42,6 @@ const Courses = () => {
           </div>
         </div>
 
-        {/* Course 2 */}
         <div className="mb-16 rounded-lg border p-8">
           <h2 className="text-2xl font-semibold">
             AI-Powered Frontend Engineer
@@ -77,7 +74,6 @@ const Courses = () => {
           </div>
         </div>
 
-        {/* Course 3 */}
         <div className="rounded-lg border p-8">
           <h2 className="text-2xl font-semibold">
             AI Full Frontend + Backend (Internship Track)
@@ -110,7 +106,6 @@ const Courses = () => {
           </div>
         </div>
 
-        {/* CTA */}
         <div className="mt-20 text-center">
           <a
             href="/contact"

@@ -2,15 +2,12 @@ const CallToAction = () => {
   return (
     <section className="bg-black py-16 text-white">
       <div className="mx-auto max-w-7xl px-6 text-center">
-
-        <h2 className="text-3xl font-bold">
-          Start Your Journey with ACD Tech
-        </h2>
+        <h2 className="text-3xl font-bold">Start Your Journey with ACD Tech</h2>
 
         <p className="mt-4 text-gray-300">
-          Learn industry-relevant skills, work on real products, and
-          gain practical experience through our structured training
-          and internship programs.
+          Learn industry-relevant skills, work on real products, and gain
+          practical experience through our structured training and internship
+          programs.
         </p>
 
         <div className="mt-8 flex justify-center gap-4">
@@ -28,7 +25,6 @@ const CallToAction = () => {
             Get in Touch
           </a>
         </div>
-
       </div>
     </section>
   );

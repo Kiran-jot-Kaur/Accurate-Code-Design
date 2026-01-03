@@ -5,7 +5,6 @@ const Footer = () => {
     <footer className="border-t">
       <div className="mx-auto max-w-7xl px-6 py-6">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
-          {/* Brand */}
           <div>
             <div className="flex items-center text-left gap-0.5">
               <img src={whiteLogo} alt="ACD Logo" className="h-16 w-auto" />
@@ -22,7 +21,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide">
               Quick Links
@@ -61,7 +59,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Programs */}
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide">
               Programs
@@ -74,7 +71,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wide">
               Contact
@@ -87,7 +83,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="mt-6 border-t pt-4 text-center text-sm text-gray-500">
           © {new Date().getFullYear()} ACD Tech. All rights reserved.
         </div>

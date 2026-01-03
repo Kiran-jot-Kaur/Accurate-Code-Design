@@ -6,7 +6,6 @@ const About = () => {
     <PageWrapper>
     <div className="mx-auto max-w-7xl px-6 py-20">
 
-      {/* Page Header */}
       <div className="mb-16 text-center">
         <h1 className="text-4xl font-bold">About ACD Tech</h1>
         <p className="mt-4 text-gray-600">
@@ -15,7 +14,6 @@ const About = () => {
         </p>
       </div>
 
-      {/* Who We Are */}
       <div className="mb-20">
         <h2 className="mb-4 text-2xl font-semibold">
           Who We Are
@@ -28,7 +26,6 @@ const About = () => {
         </p>
       </div>
 
-      {/* Vision */}
       <div className="mb-20 rounded-lg bg-gray-900 p-8">
         <h2 className="mb-4 text-2xl font-semibold">
           Our Vision
@@ -40,7 +37,6 @@ const About = () => {
         </p>
       </div>
 
-      {/* Our Approach */}
       <div className="mb-20">
         <h2 className="mb-4 text-2xl font-semibold">
           Our Approach
@@ -53,7 +49,6 @@ const About = () => {
         </ul>
       </div>
 
-      {/* Why We Exist */}
       <div className="rounded-lg bg-gray-900 p-8">
         <h2 className="mb-4 text-2xl font-semibold">
           Why ACD Tech Exists

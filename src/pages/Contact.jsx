@@ -63,7 +63,6 @@ const Contact = () => {
   return (
     <PageWrapper>
       <div className="mx-auto max-w-7xl px-6 py-20">
-        {/* Page Header */}
         <div className="mb-16 text-center">
           <h1 className="text-4xl font-bold">Contact Us</h1>
           <p className="mt-4 text-gray-600">
@@ -73,7 +72,6 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
-          {/* Contact Info */}
           <div>
             <h2 className="mb-4 text-2xl font-semibold">Contact Information</h2>
             <p className="mb-6 text-gray-600">
@@ -97,11 +95,9 @@ const Contact = () => {
             </ul>
           </div>
 
-          {/* Contact Form */}
           <form onSubmit={handleSubmit} className="rounded-lg border p-8">
             <h2 className="mb-6 text-2xl font-semibold">Send Us a Message</h2>
 
-            {/* Name */}
             <div className="mb-4">
               <label className="mb-1 block text-sm font-medium">
                 Full Name
@@ -118,7 +114,6 @@ const Contact = () => {
               )}
             </div>
 
-            {/* Email */}
             <div className="mb-4">
               <label className="mb-1 block text-sm font-medium">
                 Email Address
@@ -135,7 +130,6 @@ const Contact = () => {
               )}
             </div>
 
-            {/* Phone */}
             <div className="mb-4">
               <label className="mb-1 block text-sm font-medium">
                 Phone Number
@@ -152,7 +146,6 @@ const Contact = () => {
               )}
             </div>
 
-            {/* Message */}
             <div className="mb-6">
               <label className="mb-1 block text-sm font-medium">Message</label>
               <textarea

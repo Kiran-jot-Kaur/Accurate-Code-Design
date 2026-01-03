@@ -4,7 +4,6 @@ const Internship = () => {
   return (
     <PageWrapper>
       <div className="mx-auto max-w-7xl px-6 py-20">
-        {/* Page Header */}
         <div className="mb-16 text-center">
           <h1 className="text-4xl font-bold">Internship Program</h1>
           <p className="mt-4 text-gray-600">
@@ -13,7 +12,6 @@ const Internship = () => {
           </p>
         </div>
 
-        {/* How It Works */}
         <div className="mb-20">
           <h2 className="mb-8 text-2xl font-semibold">
             How Our Internship Works
@@ -74,7 +72,6 @@ const Internship = () => {
           </div>
         </div>
 
-        {/* What Students Will Do */}
         <div className="mb-20">
           <h2 className="mb-8 text-2xl font-semibold">
             What Interns Will Work On
@@ -99,7 +96,6 @@ const Internship = () => {
           </div>
         </div>
 
-        {/* Eligibility */}
         <div className="mb-20 rounded-lg bg-gray-900 p-8">
           <h2 className="mb-4 text-2xl font-semibold">
             Eligibility & Selection
@@ -113,7 +109,6 @@ const Internship = () => {
           </p>
         </div>
 
-        {/* CTA */}
         <div className="text-center">
           <a
             href="/contact"
